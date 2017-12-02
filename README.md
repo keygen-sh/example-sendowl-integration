@@ -51,9 +51,9 @@ ngrok http 8080
 
 Next up, add the secure `ngrok` URL to your license-key enabled SendOwl product.
 
-1. **SendOwl:** add `https://{YOUR_NGROK_URL}/sendowl-webhook?order_id={{order.id}}&product_id={{product.id}}`
+1. **SendOwl:** add `https://{YOUR_NGROK_URL}/sendowl-webhook?order_id={{order.id}}`
    as the license key "from URL" to your product (note the [liquid](https://www.sendowl.com/liquid)
-   URL parameters, which are required! [More info](https://help.sendowl.com/help/adding-a-software-product#different-ways-of-providing-codes-serials-keys).)
+   URL parameter, which is required! [More info](https://help.sendowl.com/help/adding-a-software-product#different-ways-of-providing-codes-serials-keys).)
 
 ## Testing the integration
 
